@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:memes/memes.github.io.git
+	url = https://memes@github.com/memes/memes.github.io.git
 [submodule "themes/hugo-cactus-theme"]
 	path = themes/hugo-cactus-theme
-	url = git@github.com:memes/hugo-cactus-theme.git
+	url = https://memes@github.com/memes/hugo-cactus-theme.git

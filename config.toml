@@ -1,0 +1,23 @@
+baseurl = "/"
+languageCode = "en"
+title = "Matthew Emes"
+theme = "hugo-cactus-theme"
+googleAnalytics = "UA-22915022-1"
+copyright = "Copyright © 2016 Matthew Emes. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (see https://creativecommons.org/licenses/by-sa/4.0/)."
+
+[author]
+    name = "Matthew Emes"
+
+[params]
+    name = "Matthew Emes"
+    bio = "Philomath | Open Source Advocate"
+    copyright = "Copyright © 2016 Matthew Emes. This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](//creativecommons.org/licenses/by-sa/4.0/)."
+    twitter = "matthewemes"
+    enableRSS = true
+    iconFont = "font-awesome"
+
+[social]
+    twitter = "//twitter.com/matthewemes"
+    github = "//github.com/memes"
+#    bitbucket = "//bitbucket.org/memes"
+    facebook = "//facebook.com/matthewemes"   
