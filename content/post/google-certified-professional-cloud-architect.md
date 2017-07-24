@@ -15,7 +15,7 @@ the practice at Neudesic.
 Now I have the certificate to embed. Fair warning, this thing sets so
 many cookies and trackers that it doesn't work
 with [Privacy Badger](https://www.eff.org/privacybadger) enabled, and
-is definitely an exception to my [minimal tracking stance]({{< ref "post/minimal-tracking" >}}).
+is definitely an exception to my [minimal tracking stance]({{< relref "post/new-blog.md#minimal-tracking" >}}).
 
 <iframe
     src="https://www.credential.net/embed/y72hfubb"
