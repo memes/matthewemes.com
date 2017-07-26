@@ -4,6 +4,7 @@ description = "First use and impressions of Profinder as a service provider"
 title = "Profinder"
 categories = [ "work" ]
 tags = [ "profinder", "linkedin", "consulting" ]
+aliases = [ "/post/profinder/" ]
 +++
 
 I responded to my first Profinder request earlier today, and I am

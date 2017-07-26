@@ -5,6 +5,9 @@ theme = "hugo-cactus-theme"
 googleAnalytics = "UA-22915022-1"
 copyright = "Copyright © 2017 Matthew Emes. Except where explicitlty noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (see https://creativecommons.org/licenses/by-sa/4.0/)."
 
+[permalinks]
+    post = "/:year/:month/:title"
+    
 [taxonomies]
     tag = "tags"
     category = "categories"

@@ -4,6 +4,7 @@ date = "2017-06-06T13:46:46-07:00"
 description = "Installing .NET Core SDK on Debian and resolving segfault"
 categories = [ "work" ]
 tags = [ ".net", "linux", "debian", "segfault" ]
+aliases = [ "/post/dotnet-core-sdk-on-debian-testing/" ]
 +++
 
 # Installing .NET Core SDK on Debian Testing

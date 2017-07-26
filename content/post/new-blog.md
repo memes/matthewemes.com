@@ -4,6 +4,7 @@ description = "New blog for a new year(ish)"
 title = "New blog"
 categories = [ "personal" ]
 tags = [ "blog", "tracking", "cookies" ]
+aliases = [ "/post/new-blog/" ]
 +++
 
 I think it's about time this blog was brought back from the brink of

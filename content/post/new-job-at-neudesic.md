@@ -4,6 +4,7 @@ date = "2017-04-07T21:13:15-07:00"
 title = "I'm joining Neudesic to build a Google Cloud team"
 categories = [ "work" ]
 tags = [ "Google Cloud Platform", "Neudesic" ]
+aliases = [ "/post/new-job-at-neudesic/" ]
 +++
 
 I've decided to accept a new challenge, and join
