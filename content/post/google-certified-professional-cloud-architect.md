@@ -10,6 +10,7 @@ aliases = [ "/post/google-certified-professional-cloud-architect/" ]
 Today I passed my exam to become **Google Certified Professional Cloud
 Architect**! Glad that's out the way, and I can now focus on building
 the practice at Neudesic.
+<!--more-->
 
 ### Update: May 18 2017
 
