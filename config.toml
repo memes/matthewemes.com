@@ -1,9 +1,15 @@
-baseurl = "/"
-languageCode = "en"
-title = "Matthew Emes"
-theme = "hugo-cactus-theme"
+baseurl = "https://matthewemes.com/"
+DefaultContentLanguage = "en"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+# ```lang is too engrained to give-up, enable code fences for server-side
+# highlighting too.
+pygmentsCodefences = true
 googleAnalytics = "UA-22915022-1"
-copyright = "Copyright © 2017 Matthew Emes. Except where explicitlty noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (see https://creativecommons.org/licenses/by-sa/4.0/)."
+
+# RSS copyright
+copyright = "Copyright © 2017 Matthew Emes. Except where explicitly noted, content on this site is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (see https://creativecommons.org/licenses/by-sa/4.0/)."
 
 [permalinks]
     post = "/:year/:month/:title"
@@ -15,19 +21,50 @@ copyright = "Copyright © 2017 Matthew Emes. Except where explicitlty noted, con
     
 [author]
     name = "Matthew Emes"
+    github = "memes"
+    twitter = "matthewemes"
+    linkedin = "matthewemes"
+    keybase = "memes"
 
 [params]
-    name = "Matthew Emes"
-    bio = "Philomath | Cloud Architect | Open Source Advocate"
-    copyright = "Copyright © 2017 Matthew Emes. Except where explicitlty noted, content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](//creativecommons.org/licenses/by-sa/4.0/)."
-    twitter = "matthewemes"
-    enableRSS = true
-    iconFont = "font-awesome"
+    license = "Content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)"
+    logo = "images/avatar.png"
+    favicon = "images/favicon.ico"
+    dateFormat = "January 2, 2006"
+    rss = true
+    comments = false
+    useChroma = true
+    gcse = "001323389151618099461:jjsckkerz20"
+    
+[[menu.main]]
+    url = ""
+    name = "Home"
+    weight = 1
 
-[social]
-    twitter = "https://twitter.com/matthewemes"
-    github = "https://github.com/memes"
-#    bitbucket = "//bitbucket.org/memes"
-    facebook = "https://facebook.com/matthewemes"
-    google-plus = "https://plus.google.com/+matthewemes"
-    linkedin = "https://www.linkedin.com/in/matthewemes"
+[[menu.main]]
+    identifier = "groups"
+    name = "Group by"
+    weight = 2
+    
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 3
+
+[[menu.main]]
+    parent = "groups"
+    name = "Categories"
+    url = "/categories/"
+    weight = 1
+
+[[menu.main]]
+    parent = "groups"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+[[menu.main]]
+    parent = "groups"
+    name = "Series"
+    url = "/series/"
+    weight = 3
