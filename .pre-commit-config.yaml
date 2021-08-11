@@ -21,6 +21,6 @@ repos:
       - id: sort-simple-yaml
       - id: trailing-whitespace
   - repo: https://github.com/thoughtworks/talisman
-    rev: v1.22.0
+    rev: v1.11.0
     hooks:
       - id: talisman-commit
