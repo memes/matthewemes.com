@@ -11,4 +11,3 @@ tags: [ "google", "gcp", "meetup", "ocgcp" ]
 
 The topic for October's meetup is "Cloud IoT Core by Example" - please
 RSVP [here](https://www.meetup.com/oc-gcp/events/242361939/).
-

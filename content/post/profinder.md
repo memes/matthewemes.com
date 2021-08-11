@@ -10,7 +10,7 @@ aliases = [ "/post/profinder/" ]
 I responded to my first Profinder request earlier today, and I am
 curious to see how well it works in practice. Seems like people simply
 fill in a form with a few key items, and LinkedIn mines it's database
-for matching profiles that have signed up for Profinder. 
+for matching profiles that have signed up for Profinder.
 
 I don't know how well this will work out for development projects, as
 the details as provided by the potential client are not very detailed

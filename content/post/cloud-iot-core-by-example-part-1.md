@@ -165,7 +165,7 @@ Unpacking objects: 100% (77/77), done.
 
 Cloud IoT Core requires a CA certificate that is used to authenticate
 device connections. You can use any tool you like to create a
-compatible CA certificate; the cloned source code contains a way 
+compatible CA certificate; the cloned source code contains a way
 
 ### 1.1 Create CA certificate using CFSSL
 
@@ -189,7 +189,7 @@ cfssl gencert -initca ca-csr.json | cfssljson -bare ca
 
 
 
-## 
+##
 diff --git a/registry/app.yaml b/registry/app.yaml
 index d4ab7aa..6a9a8a3 100644
 --- a/registry/app.yaml
@@ -229,4 +229,3 @@ index d4ab7aa..6a9a8a3 100644
 									+  registrationURL:
                                        `https://registration-dot-ocgcp-iot-demo.appspot.com/`
 									    };
-										

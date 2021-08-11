@@ -257,4 +257,4 @@ confirm the site is loading and that DNS is working correctly.
 
 Success!
 
-[1]: https://dnssec-debugger.verisignlabs.com 
+[1]: https://dnssec-debugger.verisignlabs.com
