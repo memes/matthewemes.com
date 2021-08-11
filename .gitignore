@@ -1,3 +1,6 @@
 # Ignore direnv
 .envrc
 .direnv
+
+# Don't commit public; rely on publishing action
+public
