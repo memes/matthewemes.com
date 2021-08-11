@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
 
 jobs:
   deploy:
@@ -26,7 +25,6 @@ jobs:
         run: hugo --minify
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/head/main'
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: memes/memes.github.io
