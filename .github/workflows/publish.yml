@@ -1,4 +1,8 @@
+# On push to main, rebuild and redeploy site
+# spell-checker: ignore yamllint peaceiris noreply
+---
 name: publish site
+# yamllint disable-line rule:truthy
 on:
   push:
     branches:

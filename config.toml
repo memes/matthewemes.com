@@ -15,12 +15,12 @@ copyright = "Copyright © 2017 Matthew Emes. Except where explicitly noted, cont
 
 [permalinks]
     post = "/:year/:month/:title"
-    
+
 [taxonomies]
     tag = "tags"
     category = "categories"
     series = "series"
-    
+
 [author]
     name = "Matthew Emes"
     github = "memes"
@@ -38,7 +38,7 @@ copyright = "Copyright © 2017 Matthew Emes. Except where explicitly noted, cont
     comments = false
     useChroma = true
     gcse = "001323389151618099461:jjsckkerz20"
-    
+
 [[menu.main]]
     url = ""
     name = "Home"
@@ -48,7 +48,7 @@ copyright = "Copyright © 2017 Matthew Emes. Except where explicitly noted, cont
     identifier = "groups"
     name = "Group by"
     weight = 2
-    
+
 [[menu.main]]
     url = "/about/"
     name = "About"
