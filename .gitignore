@@ -5,3 +5,6 @@
 
 # Don't commit public; rely on publishing action
 public
+
+# Ignore hugo locks
+.hugo_build.lock
