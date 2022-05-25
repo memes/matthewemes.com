@@ -1,4 +1,5 @@
 # spell-checker: ignore yamllint
+# yamllint disable rule:line-length
 ---
 name: pre-commit
 
@@ -13,6 +14,10 @@ jobs:
   pre-commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-      - uses: pre-commit/action@v2.0.0
+      - uses: actions/checkout@v3
+      - name: install talisman
+        run: |
+          sudo curl -sLo /usr/local/bin/talisman https://github.com/thoughtworks/talisman/releases/download/v1.27.0/talisman_linux_amd64
+          sudo chmod 0755 /usr/local/bin/talisman
+      - uses: actions/setup-python@v3
+      - uses: pre-commit/action@v2.0.3

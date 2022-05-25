@@ -15,18 +15,18 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           submodules: true
           fetch-depth: 0
       - name: setup hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v2.5.0
         with:
           hugo-version: 'latest'
       - name: build site
         run: hugo --minify --verbose
       - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v3.8.0
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: memes/memes.github.io

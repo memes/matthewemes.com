@@ -4,23 +4,21 @@
 exclude: ^public/
 repos:
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.2
+    rev: v1.26.3
     hooks:
       - id: yamllint
         files: \.(yml|yaml|talismanrc)$
         types: [file, yaml]
         entry: yamllint --strict
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.2.0
     hooks:
       - id: check-executables-have-shebangs
       - id: check-merge-conflict
-      - id: check-yaml
       - id: detect-private-key
       - id: end-of-file-fixer
-      - id: sort-simple-yaml
       - id: trailing-whitespace
   - repo: https://github.com/thoughtworks/talisman
-    rev: v1.11.0
+    rev: v1.26.0
     hooks:
       - id: talisman-commit
