@@ -1,3 +1,5 @@
 # spell-checker: ignore fileignoreconfig
 ---
 fileignoreconfig:
+- filename: static/about/757446333D3EC29A.txt
+  checksum: 9299ab2630de28539d80e732ea050c9986efcefb290cc5f32161b187e04beeca
