@@ -28,9 +28,9 @@ name *memes*.
 ## GPG Fingerprint: EE26 64DD 38F5 3BA6 849E 99B7 7574 4633 3D3E C29A
 
 My public key can be downloaded [here](757446333D3EC29A.txt), or you can pull it
-from a keyserver. I am on [keybase](https://keybase.io/) too and I still have
-some invites available; hit me up at https://keybase.io/memes if you
-would like an invite.
+from a keyserver. My details are still on [keybase](https://keybase.io/) but I am
+no longer actively using the service; I recommend [keyoxide](https://keyoxide.org)
+as an alternative.
 
 ## Site
 
