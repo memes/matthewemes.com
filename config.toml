@@ -7,7 +7,9 @@ pygmentsUseClasses = true
 # ```lang is too engrained to give-up, enable code fences for server-side
 # highlighting too.
 pygmentsCodefences = true
+# spell-checker: disable-next-line
 googleAnalytics = "G-EBKYPQELQ2"
+enableGitInfo = true
 
 # RSS
 languageCode = "en"
@@ -28,6 +30,7 @@ copyright = "Copyright © 2017 Matthew Emes. Except where explicitly noted, cont
     linkedin = "matthewemes"
     keybase = "memes"
     telegram = "matthewemes"
+    mastodon = "https://hachyderm.io/@memes"
 
 [params]
     license = "Content on this site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/)"
@@ -37,6 +40,7 @@ copyright = "Copyright © 2017 Matthew Emes. Except where explicitly noted, cont
     rss = true
     comments = false
     useChroma = true
+    # spell-checker: disable-next-line
     gcse = "001323389151618099461:jjsckkerz20"
 
 [[menu.main]]
