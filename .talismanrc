@@ -4,7 +4,7 @@ fileignoreconfig:
 - filename: static/about/757446333D3EC29A.txt
   checksum: 9299ab2630de28539d80e732ea050c9986efcefb290cc5f32161b187e04beeca
 - filename: content/about/_index.md
-  checksum: 11ceac9c373de848524de756e2bf7b24a2df2f2d4593ac67eef80f68d6723b20
+  checksum: 2a20c5a35448eb8f9cb3ec8cc6674e8378a34a84af83546c003ed4069141c088
 - filename: themes/beautifulhugo
   checksum: d924fe7f1055fcd4187ab45292ddb4ee7d7dd16609047e68efc49abeffc12877
 - filename: static/css/syntax.css
