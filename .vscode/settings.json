@@ -3,6 +3,7 @@
         "beautifulhugo",
         "cffi",
         "Codefences",
+        "hachyderm",
         "keybase",
         "keyoxide",
         "matthewemes",
