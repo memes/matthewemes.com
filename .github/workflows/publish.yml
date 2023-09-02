@@ -14,16 +14,17 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: checkout
+      - name: Checkout
         uses: actions/checkout@v3
         with:
           submodules: true
           fetch-depth: 0
-      - name: setup hugo
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
           hugo-version: 'latest'
-      - name: build site
+          extended: true
+      - name: Build Site
         run: hugo --minify --verbose
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3.9.0
