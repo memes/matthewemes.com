@@ -1,0 +1,66 @@
+---
+baseurl: 'https://matthewemes.com/'
+title: ''
+defaultContentLanguage: en
+theme: beautifulhugo
+pygmentsUseClasses: true
+pygmentsCodefences: true
+pygmentsCodeFencesGuessSyntax: true
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+languageCode: en
+copyright: >-
+  Copyright © 2017 Matthew Emes. Except where explicitly noted, content on this
+  site is licensed under a Creative Commons Attribution-ShareAlike 4.0
+  International License (see https://creativecommons.org/licenses/by-sa/4.0/).
+
+permalinks:
+  post: '/:year/:month/:title'
+
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+
+author:
+  name: Matthew Emes
+  github: memes
+  twitter: matthewemes
+  linkedin: matthewemes
+  keybase: memes
+  telegram: matthewemes
+  mastodon: hachyderm.io/@memes
+
+params:
+  logo: images/avatar.png
+  favicon: images/favicon.ico
+  dateFormat: January 2, 2006
+  rss: true
+  comments: false
+  useChroma: true
+  commit: 'https://github.com/memes/matthewemes.com/tree/'
+  selfHosted: true
+
+menu:
+  main:
+    - url: /
+      name: Home
+      weight: 1
+    - identifier: groups
+      name: Group b
+    - url: /about/
+      name: About
+      weight: 3
+    - parent: groups
+      name: Categories
+      url: /categories/
+      weight: 1
+    - parent: groups
+      name: Tags
+      url: /tags/
+      weight: 2
+    - parent: groups
+      name: Series
+      url: /series/
+      weight: 3
