@@ -9,3 +9,5 @@ fileignoreconfig:
   checksum: d924fe7f1055fcd4187ab45292ddb4ee7d7dd16609047e68efc49abeffc12877
 - filename: static/css/syntax.css
   checksum: f4bff8c4306a211738634407d313ef6fa87f12e8b806613eed62515692da14b6
+- filename: hugo.toml
+  checksum: d6e63b4ae4f13a7384b383c3acb2e9b992930a58be0941842c081e792cd11dfa
