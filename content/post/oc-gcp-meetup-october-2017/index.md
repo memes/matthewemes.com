@@ -7,7 +7,7 @@ categories: [ "meetup" ]
 tags: [ "google", "gcp", "meetup", "ocgcp" ]
 ---
 
-![Cloud IoT Core](/images/gcpicons/cloud-iot-core.png#center)
+![Cloud IoT Core](cloud-iot-core.png)
 
 The topic for October's meetup is "Cloud IoT Core by Example" - please
 RSVP [here](https://www.meetup.com/oc-gcp/events/242361939/).

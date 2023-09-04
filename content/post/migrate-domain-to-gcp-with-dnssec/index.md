@@ -3,7 +3,7 @@ title: "Migrate OC GCP domain to Google Cloud Platform, with DNSSEC enabled"
 date: 2017-11-10T12:13:15-08:00
 categories: [ "how-to" ]
 tags: [ "google", "gcp", "meetup", "ocgcp", "dns", "dnssec" ]
-series: "Migrating to GCP"
+series: ["Migrating to GCP"]
 subtitle: "Preparing for a dynamic site on GCP, part 1"
 ---
 As the demos for [OC GCP Meetup](https://meetup.com/oc-gcp/) get
@@ -248,7 +248,7 @@ analyse your DNS records and confirm that DNSSEC is setup completely.
 
 The image below shows the output from the [analyzer][1] for ocgcp.com.
 
-{{< figure src="/images/gcpdnssec/dnssec_analyzer.png" title="DNSSEC Debugger output for ocgcp.com" >}}
+![DNSSEC Debugger analysis](dnssec_analyzer.png "DNSSEC Debugger output for ocgcp.com")
 
 ## 5. Verify the site is running
 

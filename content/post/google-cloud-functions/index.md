@@ -61,18 +61,18 @@ source for our functions. Create or open an existing project in Cloud
 Console and choose Source Repositories from the left-side menu, then
 click **Create Repository**.
 
-{{< figure src="/images/gcpcf/00-create-gcr.png" title="Create New Repository" >}}
+![Create repo](00-create-gcr.png "Create New Repository")
 
 That's great, but our source is hosted in GitHub, so we must create a
 mirrored repository of it. Choose to *Automatically mirror from GitHub
 or Bitbucket* and click **Connect**.
 
-![Mirror repo](/images/gcpcf/01-mirror-from-github.png)
+![Mirror repo](01-mirror-from-github.png)
 
 Allow GCP to create an access token for your GitHub account, and then
 select the source from the list. In this case I'm choosing
 *mithridates* from the **NeudesicGCP** organization.
 
-![Source repo](/images/gcpcf/02-choose-repo-to-mirror.png)
+![Source repo](02-choose-repo-to-mirror.png)
 
-![Linked](/images/gcpcf/03-linked-repos.png)
+![Linked](03-linked-repos.png)
