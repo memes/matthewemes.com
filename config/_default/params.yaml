@@ -1,0 +1,29 @@
+---
+defaultTheme: light
+themeColor: blue
+themeContrast: medium
+logo:
+  text: Home
+  url: /
+prism:
+  languages:
+    - bash
+    - clike
+    - diff
+    - go
+    - hcl
+    - markup
+    - nginx
+    - protobuf
+    - yaml
+  plugins:
+    - normalize-whitespace
+    - toolbar
+    - copy-to-clipboard
+    - line-numbers
+    - command-line
+    - diff-highlight
+tagCloud:
+  enable: false
+  minFontSizeRem: 0.8
+  maxFontSizeRem: 2.0

@@ -3,8 +3,13 @@
 .direnv
 .tool-versions
 
-# Don't commit public; rely on publishing action
+# Don't commit public and resources; rely on publishing action
 public
+resources
 
-# Ignore hugo locks
+# Ignore hugo locks and stats
 .hugo_build.lock
+hugo_stats.json
+
+# Ignore installed nodejs modules used by theme pipelines
+node_modules
