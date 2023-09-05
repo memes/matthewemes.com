@@ -1,0 +1,4 @@
+---
+_merge: deep
+noJSConfigInAssets: true
+writeStats: true

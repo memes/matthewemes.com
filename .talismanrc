@@ -4,8 +4,15 @@ fileignoreconfig:
 - filename: static/about/757446333D3EC29A.txt
   checksum: 9299ab2630de28539d80e732ea050c9986efcefb290cc5f32161b187e04beeca
 - filename: content/about/_index.md
-  checksum: 11ceac9c373de848524de756e2bf7b24a2df2f2d4593ac67eef80f68d6723b20
+  checksum: f66c82af754901a97a1e63cb42d079a4118f7878da8428998767923c5a6814a4
 - filename: themes/beautifulhugo
   checksum: d924fe7f1055fcd4187ab45292ddb4ee7d7dd16609047e68efc49abeffc12877
 - filename: static/css/syntax.css
   checksum: f4bff8c4306a211738634407d313ef6fa87f12e8b806613eed62515692da14b6
+- filename: hugo.toml
+  checksum: d6e63b4ae4f13a7384b383c3acb2e9b992930a58be0941842c081e792cd11dfa
+- filename: go.sum
+  checksum: 7204d2b5cece6ff3a21fcb30b85c12c1a884565fc8869bc9e13136c6ffeddf95
+- filename: package-lock.json
+  checksum: 4888790d77b5e5bc04f6a33a0d836b5117a3e92c9a9f85fe4214d1e97c66210c
+version: ""

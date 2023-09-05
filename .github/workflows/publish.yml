@@ -10,21 +10,31 @@ on:
 
 jobs:
   deploy:
+    name: Deploy matthewemes.com site
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
-          submodules: true
           fetch-depth: 0
-      - name: setup hugo
+      - name: Setup nodejs
+        uses: actions/setup-node@v3.8.1
+        with:
+          node-version: 18
+      - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
-          hugo-version: 'latest'
-      - name: build site
-        run: hugo --minify --verbose
+          hugo-version: '0.118.2'
+          extended: true
+      - name: Install npm packages
+        run: npm ci
+      - name: Build Site
+        run: hugo --minify --verbose --environment production
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:

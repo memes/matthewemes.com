@@ -1,0 +1,7 @@
+---
+en:
+  languageName: English
+  weight: 10
+  params:
+    jsonResume:
+      present: present

@@ -1,0 +1,50 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Matthew Emes",
+      "label": "Cloud Architect and open-source advocate, code tinkerer",
+      "image": "https://matthewemes.com/images/avatar.png",
+      "summary": "I'm a Senior Global Solutions Architect at F5 on the Cloud Alliances team specialising in GCP.",
+      "location": {
+        "countryCode": "US",
+        "region": "California"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "url": "https://github.com/memes"
+        },
+        {
+          "network": "X",
+          "url": "https://x.com/matthewemes"
+        },
+        {
+          "network": "Mastodon",
+          "url": "https://hachyderm.io/@memes"
+        },
+        {
+          "network": "LinkedIn",
+          "url": "https://www.linkedin.com/in/matthewemes"
+        },
+        {
+          "network": "RSS",
+          "url": "https://matthewemes.com/index.xml"
+        }
+      ]
+    },
+    "work": [],
+    "education": [],
+    "skills": [],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fluent"
+      }
+    ],
+    "projects": [],
+    "meta": {
+      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+      "version": "v1.0.0",
+      "lastModified": "2017-12-24T15:53:00"
+    }
+  }

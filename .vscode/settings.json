@@ -1,7 +1,9 @@
 {
     "cSpell.words": [
         "beautifulhugo",
+        "boycie",
         "cffi",
+        "clike",
         "Codefences",
         "hachyderm",
         "keybase",
@@ -9,6 +11,7 @@
         "matthewemes",
         "mgmt",
         "nspkg",
+        "protobuf",
         "pygments",
         "termux",
         "virtualenv"

@@ -4,7 +4,7 @@ date: 2017-11-01T17:17:22-07:00
 draft: true
 categories: [ "meetup", "work" ]
 tags: [ "google", "gcp", "meetup", "ocgcp", "iot", "go", "angular4" ]
-series: "Cloud IoT Core by Example"
+series: ["Cloud IoT Core by Example"]
 subtitle: "Emulating a consumer device, registering with IoT Core, and publishing telemetry events"
 ---
 
@@ -35,8 +35,7 @@ global, scalable, data ingestion and distribution hub. It combines
 secure MQTT and HTTP endpoints for incoming data and a device
 registry that gives programmatic control of individual devices that
 
-{{< figure src="/images/gcpiotcore/iotcore_hla.png" title="Figure 1: Cloud IoT Core architecture" >}}
-
+![Cloud IoT HLA](iotcore_hla.png "Figure 1: Cloud IoT Core architecture")
 
 ## 1. Create a project to host the demo
 
