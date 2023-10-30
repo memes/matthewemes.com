@@ -12,7 +12,7 @@ fileignoreconfig:
 - filename: hugo.toml
   checksum: d6e63b4ae4f13a7384b383c3acb2e9b992930a58be0941842c081e792cd11dfa
 - filename: go.sum
-  checksum: 7204d2b5cece6ff3a21fcb30b85c12c1a884565fc8869bc9e13136c6ffeddf95
+  checksum: 2ff5673bed1dee163235ef1b9b56033181931bd50d17f3c0675d5b51f622ef5a
 - filename: package-lock.json
-  checksum: 4888790d77b5e5bc04f6a33a0d836b5117a3e92c9a9f85fe4214d1e97c66210c
+  checksum: 3837e94253e1782144ca2d3d3dfe29a457c9c3fe332046d81f46cbd6881cee8d
 version: ""
