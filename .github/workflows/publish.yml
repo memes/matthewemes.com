@@ -38,7 +38,7 @@ jobs:
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
           external_repository: memes/memes.github.io
           publish_branch: main
           publish_dir: ./public
