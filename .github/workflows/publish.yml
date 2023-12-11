@@ -29,12 +29,12 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
-          hugo-version: '0.118.2'
+          hugo-version: '0.121.1'
           extended: true
       - name: Install npm packages
         run: npm ci
       - name: Build Site
-        run: hugo --minify --verbose --environment production
+        run: hugo --minify --logLevel info --environment production
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:
