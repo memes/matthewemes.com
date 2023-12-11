@@ -1,6 +1,6 @@
 module github.com/memes/matthewemes.com
 
-go 1.21.5
+go 1.21
 
 require (
 	github.com/schnerring/hugo-mod-json-resume v0.0.0-20231210105022-40708006c621 // indirect
