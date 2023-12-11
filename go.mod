@@ -1,8 +1,8 @@
 module github.com/memes/matthewemes.com
 
-go 1.21
+go 1.21.5
 
 require (
-	github.com/schnerring/hugo-mod-json-resume v0.0.0-20231022202951-552402b37357 // indirect
-	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20231022204344-8475ce73a204 // indirect
+	github.com/schnerring/hugo-mod-json-resume v0.0.0-20231210105022-40708006c621 // indirect
+	github.com/schnerring/hugo-theme-gruvbox v0.0.0-20231211091635-2758b311be33 // indirect
 )
