@@ -1,7 +1,7 @@
 # Base configuration for site
 ---
 baseurl: 'http://localhost/'
-title: 'matthewemes.com'
+title: 'Matthew Emes'
 defaultContentLanguage: en
 enableEmoji: true
 enableGitInfo: true

@@ -2,7 +2,7 @@
     "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
       "name": "Matthew Emes",
-      "label": "Cloud Architect and open-source advocate, code tinkerer",
+      "label": "Cloud Architect, open-source advocate, code tinkerer",
       "image": "https://matthewemes.com/images/avatar.png",
       "summary": "I'm a Senior Global Solutions Architect at F5 on the Cloud Alliances team specialising in GCP.",
       "location": {

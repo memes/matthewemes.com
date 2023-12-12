@@ -2,6 +2,7 @@
 defaultTheme: light
 themeColor: blue
 themeContrast: medium
+subtitle: Code Tinkerer
 logo:
   text: Home
   url: /
