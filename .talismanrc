@@ -2,9 +2,9 @@
 ---
 fileignoreconfig:
 - filename: static/about/757446333D3EC29A.txt
-  checksum: 9299ab2630de28539d80e732ea050c9986efcefb290cc5f32161b187e04beeca
+  checksum: 9f7a2356177844137f8972769c51819244e645ad03f63c8702492a4c21fc01b9
 - filename: content/about/_index.md
-  checksum: f66c82af754901a97a1e63cb42d079a4118f7878da8428998767923c5a6814a4
+  checksum: 776b6185dea1e7d987c33b7e7613bdfbefb9a05f5061d24be5fb4c1f9232021d
 - filename: themes/beautifulhugo
   checksum: d924fe7f1055fcd4187ab45292ddb4ee7d7dd16609047e68efc49abeffc12877
 - filename: static/css/syntax.css

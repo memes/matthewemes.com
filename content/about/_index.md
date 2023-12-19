@@ -36,28 +36,27 @@ This message contains proofs for Matthew Emes' internet identities.
 
 Verify this profile at https://keyoxide.org/EE2664DD38F53BA6849E99B7757446333D3EC29A
 
-proof=dns:boycie.net?type=TXT
-proof=dns:matthewemes.com?type=TXT
-proof=https://gist.github.com/memes/d92379a063ca8d539c03d6332d29e668
-proof=https://gitlab.com/memes/gitlab_proof
-proof=https://hachyderm.io/@memes
-proof=https://twitter.com/matthewemes/status/1592346699220996096
+proof@ariadne.id=https://gitlab.com/memes/gitlab_proof
+proof@ariadne.id=dns:matthewemes.com?type=TXT
+proof@ariadne.id=https://hachyderm.io/@memes
+proof@ariadne.id=dns:boycie.net?type=TXT
+proof@ariadne.id=https://twitter.com/matthewemes/status/1592346699220996096
+proof@ariadne.id=https://gist.github.com/memes/d92379a063ca8d539c03d6332d29e668
 -----BEGIN PGP SIGNATURE-----
 
-iQJKBAEBCgA0FiEEII7nNlYdvD0EC5RUxhKsAK02scMFAmTz4tQWHG1lbWVzQG1h
-dHRoZXdlbWVzLmNvbQAKCRDGEqwArTaxw8TyD/9x3lgJv1CpVFN1MZpQ8C4QQDri
-5tXp+8qxgJS2At56U8X/UaNt5qbqcl18I4Uv5DIqvwfSR33iFVqGEFmrW0Dwf8jq
-6gb0nJl5dkW11//6IvtIfyytI32VDfUEVK/wmZ9HE5fIxORMMf4d2zijvWiujqQv
-Z8Ec/2AcdEMHCdc3VP2JLKaXGg+4HEwshbSVjYYE+gTKSlEOqn9xG6LXrHzX+Nxp
-c0kZ5EcBqFGK6uwlUiFff54lZlN+AAMQCEWd972lriBmFAahWf9OuxnM3sVMz4wj
-Dqj1A7KxBaIhRKKyGKcpcIf8TCNPHHsWFPp2cvfqKq8L7X519mIdDUWV0hR7gQTt
-Gri1SObrEt+w7GssdJuYesege0NhPI/bFaXHNaKJ+dKaWR29L4CDoKQmfJshCX01
-Es9dQWtp9AAQJdA9w5IjNNdGIPzxbNoRuiODis698nzJZ1VouvUh+rO+cFdBx5Wb
-lewvbCyR+y09xmT+ngLUS2j/tjeqOWQ33Y6jGXyzSSdCv7IV1C5TKpKiZKdcpr7Q
-reTmBbrJiefg545l8iX1JPUXfiwHh2ZNo3Fhhnf3KYMxTj6j1pwocpjmBwl/GuCR
-Oy0KuMDsFOokTTIdu7TNkQ1e6aqVvH5gbjciqW8pr+pQgGFEulWKCndmRnaFIKKg
-iDEA7iPrOL82Tj7zYA==
-=ARJL
+iQIzBAEBCgAdFiEELx16x4CyPGAXo8fHD+pV6MpgNc8FAmWB0zgACgkQD+pV6Mpg
+Nc+67BAAhpM3WuPw/roNPvpNPgTeJgKgU89mHOfUiwpc+zyVCFkel6P0y6EEBV91
+tzh+DwUA/YENMKTyqodHII8oseOm2hBttOV826sYhFv/LSaYWzmtI3D+E1ZRDaxO
+9tn/RZy4kbf9k2Mm9dUF7Xe1ui2SZv6bcLmNzPhmC2WEb6X6RZu/j6AlI1+ysnIJ
+lZzTrkHXBu/LDRM+xxCF5CLUgc1esj4oUP1lCUAwSFt0O0KRPBkaC+7cnk0UyCol
+cKMRYwRE25DQE7dkYs1q1rmIFTFgc/+USnKZ+B5OwNXY0zuh9xZtGuB2xAxNNzDJ
+9oyDhY0zhsv4oLG+Ab1ZNHUBo0ZqQn0dOOlvuNAtgg93aGSeukNar8iYNZqSsCkO
+39+/CPRKwW1I4/VyUIMVABtnedZxYSchgnqbmt+rX4UAq0DLGYe68FRAM+SR6Qx6
+58Gi/+Kct/Qd/5kQhVGrAh4iHLYneQ3tU4f6SxtOUB7Fb7KFM55IHRLF0wPPLitU
+vYO5TtefjnTcZopvhXRnMBUdTkbfkSfuD9wEurKl6BZdIqY1O2jmOVxTueHdBfbK
+x+a/z7hUvt8BU7XR1HjxCkCug0Xh/I4QYvxpjLq/3QgTD0gY/ZETAI8GavOUt/6B
+c2cUO5xa18ZGvOfD7tBSIF+bgL+CeeJF0bn2vfrKe6VNMeng3kQ=
+=Albb
 -----END PGP SIGNATURE-----
 ```
 <!-- spell-checker: enable -->
