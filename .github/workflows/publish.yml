@@ -27,6 +27,13 @@ jobs:
         with:
           hugo-version: '0.126.3'
           extended: false
+      - name: Enable hugo mod cache
+        uses: actions/cache@v4
+        with:
+          path: /home/runner/.cache/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
       - name: Build Site
         run: hugo --minify --gc --logLevel info --environment production
       - name: deploy
