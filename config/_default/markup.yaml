@@ -1,5 +1,10 @@
 ---
 _merge: deep
+highlight:
+  codeFences: true
+  style: bw
+  lineNumbersInTable: false
+  noClasses: false
 goldmark:
   renderer:
     unsafe: true

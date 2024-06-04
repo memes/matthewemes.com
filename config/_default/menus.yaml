@@ -1,0 +1,14 @@
+---
+main:
+  - identifier: home
+    url: /
+    name: Home
+    weight: 10
+  - identifier: tags
+    url: /tags/
+    name: Tags
+    weight: 20
+  - identifier: about
+    url: /about/
+    name: About
+    weight: 40
