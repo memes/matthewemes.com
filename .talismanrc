@@ -12,7 +12,9 @@ fileignoreconfig:
 - filename: hugo.toml
   checksum: d6e63b4ae4f13a7384b383c3acb2e9b992930a58be0941842c081e792cd11dfa
 - filename: go.sum
-  checksum: 269283c689f0a7ad487aa37c35fad535770ed9de6101792e6639f34fbb02ca07
+  checksum: a74f83280beafb5b6455897f05f0d3d18555d2156e29a9d813a26a840ef661c5
 - filename: package-lock.json
   checksum: 81de2706e6cf286e8fb0c5203ad5db86c9af8d1e3504129a301d3af1991a2ff4
+- filename: .github/workflows/publish.yml
+  checksum: b0aacdf9bf2ca55320df2ea265ab6f456e785fbe863eb376b3d0b0e237864fcf
 version: ""
