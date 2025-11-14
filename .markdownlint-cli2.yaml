@@ -5,3 +5,15 @@ config:
     line_length: 120
 
 gitignore: true
+
+# TODO(@memes): Clean-up old posts?
+ignores:
+  - content/post/az-cli-on-chromebook.md
+  - content/post/cloud-iot-core-by-example-part-1/index.md
+  - content/post/dotnet-core-sdk-on-Debian-testing.md
+  - content/post/google-certified-professional-cloud-architect.md
+  - content/post/google-cloud-functions/index.md
+  - content/post/migrate-domain-to-gcp-with-dnssec/index.md
+  - content/post/new-blog.md
+  - content/post/oc-gcp-meetup-october-2017/index.md
+  - content/post/profinder.md
