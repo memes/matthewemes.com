@@ -1,0 +1,35 @@
+{
+    "name": "memes-matthewemes-com",
+    "image": "mcr.microsoft.com/devcontainers/base:debian",
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "version": "1.25"
+        },
+        "ghcr.io/devcontainers/features/hugo:1": {
+            "version": "0.152.2"
+        },
+        "ghcr.io/memes/devcontainers-features/direnv:1": {},
+        "ghcr.io/memes/devcontainers-features/starship:1": {},
+        "ghcr.io/memes/devcontainers-features/talisman:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "Gruntfuggly.todo-tree",
+                "redhat.vscode-yaml",
+                "streetsidesoftware.code-spell-checker",
+                "esbenp.prettier-vscode",
+                "DavidAnson.vscode-markdownlint"
+            ]
+        }
+    },
+    "containerUser": "vscode",
+    "updateRemoteUserUID": true,
+    "onCreateCommand": {
+        "install-deps": "sudo sh -c 'apt update && apt install -y --no-install-recommends pipx && rm -rf /var/lib/apt/lists/*'",
+        "modify-default-omz-plugins": ["/usr/bin/sed", "-i.onCreateCommand" , "-e", "/^plugins=/c\\plugins=(git dotenv)", "/home/vscode/.zshrc"]
+    },
+    "updateContentCommand": {
+        "pre-commit": "pipx install pre-commit && pre-commit install --hook-type commit-msg --hook-type pre-commit"
+    }
+}

@@ -1,28 +1,5 @@
 {
-    "cSpell.words": [
-        "beautifulhugo",
-        "boycie",
-        "cffi",
-        "clike",
-        "Codefences",
-        "filecontent",
-        "fira",
-        "goldmark",
-        "gomod",
-        "gruvbox",
-        "hachyderm",
-        "keybase",
-        "keyoxide",
-        "matthewemes",
-        "mgmt",
-        "nspkg",
-        "prismjs",
-        "protobuf",
-        "pygments",
-        "roboto",
-        "schnerring",
-        "tabler",
-        "termux",
-        "virtualenv"
-    ]
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-issue-config.json": ".github/ISSUE_TEMPLATE/config.yml"
+    }
 }
