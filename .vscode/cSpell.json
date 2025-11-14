@@ -1,0 +1,41 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+    "version": "0.2",
+    "language": "en",
+    "words": [
+        "beautifulhugo",
+        "boycie",
+        "cffi",
+        "clike",
+        "Codefences",
+        "filecontent",
+        "fira",
+        "goldmark",
+        "gomod",
+        "gruvbox",
+        "hachyderm",
+        "keybase",
+        "keyoxide",
+        "matthewemes",
+        "mgmt",
+        "nspkg",
+        "prismjs",
+        "protobuf",
+        "pygments",
+        "roboto",
+        "schnerring",
+        "tabler",
+        "termux",
+        "virtualenv"
+    ],
+    "flagWords": [
+        "hte"
+    ],
+    "ignorePaths": [
+        ".devcontainer/devcontainer.json",
+        ".github/workflows/pre-commit.yml",
+        ".gitignore",
+        ".markdownlint-cli2.yaml",
+        ".pre-commit-config.yaml"
+    ]
+}
