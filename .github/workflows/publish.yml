@@ -39,7 +39,7 @@ jobs:
       - name: Build Site
         run: hugo --minify --gc --logLevel info --environment production
       - name: deploy
-        uses: peaceiris/actions-gh-pages@v4.0.0
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN }}
           external_repository: memes/memes.github.io
